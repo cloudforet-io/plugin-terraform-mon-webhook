@@ -1,0 +1,7 @@
+---
+name: Terraform Cloud webhook
+service_type: monitoring.Webhook
+image: spaceone/plugin-terraform-mon-webhook
+labels: ['Webhook', 'Terraform']
+tags:
+  icon: https://spaceone-custom-assets.s3.ap-northeast-2.amazonaws.com/console-assets/icons/terraform.svg
